@@ -4,7 +4,7 @@ A simple menu bar app for macOS that shows the current time in UTC. Loosely insp
 ## Installation
 Installing SwiftUTCMenuClock is super-easy *unless* you want it to run itself at login (see below).
 
-1. Download the latest release's **SwiftUTCMenuClock.zip** from the [releases page](https://github.com/jonblatho/SwiftUTCMenuClock/releases).
+1. Download the latest release's **SwiftUTCMenuClock.app.zip** from the [releases page](https://github.com/jonblatho/SwiftUTCMenuClock/releases).
 2. Drag **SwiftUTCMenuClock.app** from wherever it downloaded to to your Applications window.
 3. Open it!
 
