@@ -32,10 +32,6 @@ class StatusMenuController: NSObject {
 		}
 	}
 	
-	@IBAction func openAtLoginClicked(_ sender: Any) {
-		
-	}
-	
 	@IBAction func quitClicked(_ sender: Any) {
 		// Quit the application.
 		NSApplication.shared.terminate(self)
