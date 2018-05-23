@@ -31,9 +31,10 @@ class StatusMenuController: NSObject {
 			let now = Date(timeIntervalSinceNow: 0)
 			
 			// Check the current millisecond to see if we actually need to update the time string.
-			let millisecond = calendar.component(.nanosecond, from: now) / 1000000
-			switch millisecond {
-			case 0...9:
+			let centisecond = calendar.component(.nanosecond, from: now) / 10000000
+			switch centisecond {
+			case 0:
+				NSLog("Updating time")
 				// We've got a second on the second (approximately). We need to update the time.
 				// Format the current time into a human-readable string and set the title.
 				let timeString = formatter.string(from: now)
