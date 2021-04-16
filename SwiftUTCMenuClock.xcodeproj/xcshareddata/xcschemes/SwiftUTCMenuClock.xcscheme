@@ -28,6 +28,26 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F5AEE09C207AFE820042695A"
+               BuildableName = "SwiftUTCMenuClockTests.xctest"
+               BlueprintName = "SwiftUTCMenuClockTests"
+               ReferencedContainer = "container:SwiftUTCMenuClock.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F5AEE0A7207AFE820042695A"
+               BuildableName = "SwiftUTCMenuClockUITests.xctest"
+               BlueprintName = "SwiftUTCMenuClockUITests"
+               ReferencedContainer = "container:SwiftUTCMenuClock.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction

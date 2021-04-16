@@ -21,10 +21,16 @@
         </customObject>
         <menu id="3ag-Ux-Hwh">
             <items>
-                <menuItem title="Show Date" id="CZN-lb-ne0">
+                <menuItem title="Show Day of Week" id="d3Y-lV-Ekm">
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <connections>
-                        <action selector="showDateClicked:" target="S7q-nX-RQz" id="IGu-GD-LG3"/>
+                        <action selector="showDayOfWeekClicked:" target="S7q-nX-RQz" id="Fp1-g3-Jcx"/>
+                    </connections>
+                </menuItem>
+                <menuItem title="Show Date" id="4ii-BI-xyW">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="showDateClicked:" target="S7q-nX-RQz" id="Q8Q-2j-cSc"/>
                     </connections>
                 </menuItem>
                 <menuItem title="Show Seconds" id="qIu-eN-Ym7">
@@ -33,7 +39,20 @@
                         <action selector="showSecondsClicked:" target="S7q-nX-RQz" id="eWZ-MN-3fa"/>
                     </connections>
                 </menuItem>
+                <menuItem title="Flash Time Separators" id="CZN-lb-ne0">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="flashTimeSeparatorsClicked:" target="S7q-nX-RQz" id="FS4-BK-vwV"/>
+                    </connections>
+                </menuItem>
                 <menuItem isSeparatorItem="YES" id="0rj-W5-O7w"/>
+                <menuItem title="Open at Login" id="qDR-VP-Plt">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="openAtLoginClicked:" target="S7q-nX-RQz" id="Bt2-aq-trq"/>
+                    </connections>
+                </menuItem>
+                <menuItem isSeparatorItem="YES" id="5hw-y4-dQw"/>
                 <menuItem title="Quit" id="oXq-jf-p8U">
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <connections>

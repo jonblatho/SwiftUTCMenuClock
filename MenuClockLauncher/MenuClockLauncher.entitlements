@@ -6,8 +6,8 @@
 	<true/>
 	<key>com.apple.security.application-groups</key>
 	<array>
-		<string>group.$(TeamIdentifierPrefix)com.jonblatho.SwiftUTCMenuClock</string>
 		<string>$(TeamIdentifierPrefix)com.jonblatho.SwiftUTCMenuClock</string>
+		<string>group.$(TeamIdentifierPrefix)com.jonblatho.SwiftUTCMenuClock</string>
 	</array>
 	<key>com.apple.security.files.user-selected.read-only</key>
 	<true/>

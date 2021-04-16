@@ -3,81 +3,125 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E56962B2629253300043826 /* Time in Frameworks */ = {isa = PBXBuildFile; productRef = 3E56962A2629253300043826 /* Time */; };
+		3E56963B262929C700043826 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E56963A262929C700043826 /* Settings.swift */; };
+		3E56971F26295C5600043826 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E56971E26295C5600043826 /* AppDelegate.swift */; };
+		3E56972326295C5800043826 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E56972226295C5800043826 /* Assets.xcassets */; };
+		3E56972626295C5800043826 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E56972426295C5800043826 /* Main.storyboard */; };
+		3E56973026295CBF00043826 /* MenuClockLauncher.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3E56971C26295C5600043826 /* MenuClockLauncher.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3E56973A26295CFB00043826 /* ServiceManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E56973926295CFB00043826 /* ServiceManagement.framework */; };
+		3E56973E262961AC00043826 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E56963A262929C700043826 /* Settings.swift */; };
 		F5AEE091207AFE800042695A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AEE090207AFE800042695A /* AppDelegate.swift */; };
 		F5AEE096207AFE820042695A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5AEE094207AFE820042695A /* MainMenu.xib */; };
-		F5AEE0A2207AFE820042695A /* SwiftUTCMenuClockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AEE0A1207AFE820042695A /* SwiftUTCMenuClockTests.swift */; };
-		F5AEE0AD207AFE820042695A /* SwiftUTCMenuClockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AEE0AC207AFE820042695A /* SwiftUTCMenuClockUITests.swift */; };
 		F5AEE0BB207B00820042695A /* StatusMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AEE0BA207B00820042695A /* StatusMenuController.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		F5AEE09E207AFE820042695A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F5AEE085207AFE800042695A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F5AEE08C207AFE800042695A;
-			remoteInfo = SwiftUTCMenuClock;
+/* Begin PBXCopyFilesBuildPhase section */
+		3E56965826292DE200043826 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F5AEE0A9207AFE820042695A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F5AEE085207AFE800042695A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F5AEE08C207AFE800042695A;
-			remoteInfo = SwiftUTCMenuClock;
+		3E56972F26295CAF00043826 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Library/LoginItems;
+			dstSubfolderSpec = 1;
+			files = (
+				3E56973026295CBF00043826 /* MenuClockLauncher.app in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXContainerItemProxy section */
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3E5696252629252900043826 /* Time */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Time; sourceTree = "<group>"; };
+		3E56963A262929C700043826 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		3E56964426292DDF00043826 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		3E56964626292DDF00043826 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		3E56971C26295C5600043826 /* MenuClockLauncher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MenuClockLauncher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E56971E26295C5600043826 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3E56972226295C5800043826 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3E56972526295C5800043826 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3E56972726295C5800043826 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E56972826295C5800043826 /* MenuClockLauncher.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MenuClockLauncher.entitlements; sourceTree = "<group>"; };
+		3E56973926295CFB00043826 /* ServiceManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ServiceManagement.framework; path = System/Library/Frameworks/ServiceManagement.framework; sourceTree = SDKROOT; };
 		F5AEE08D207AFE800042695A /* SwiftUTCMenuClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUTCMenuClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5AEE090207AFE800042695A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F5AEE095207AFE820042695A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		F5AEE097207AFE820042695A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F5AEE098207AFE820042695A /* SwiftUTCMenuClock.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUTCMenuClock.entitlements; sourceTree = "<group>"; };
-		F5AEE09D207AFE820042695A /* SwiftUTCMenuClockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUTCMenuClockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F5AEE0A1207AFE820042695A /* SwiftUTCMenuClockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUTCMenuClockTests.swift; sourceTree = "<group>"; };
-		F5AEE0A3207AFE820042695A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F5AEE0A8207AFE820042695A /* SwiftUTCMenuClockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUTCMenuClockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F5AEE0AC207AFE820042695A /* SwiftUTCMenuClockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUTCMenuClockUITests.swift; sourceTree = "<group>"; };
-		F5AEE0AE207AFE820042695A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F5AEE0BA207B00820042695A /* StatusMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusMenuController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		3E56971926295C5600043826 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F5AEE08A207AFE800042695A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F5AEE09A207AFE820042695A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F5AEE0A5207AFE820042695A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				3E56962B2629253300043826 /* Time in Frameworks */,
+				3E56973A26295CFB00043826 /* ServiceManagement.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E5696292629253300043826 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E56973926295CFB00043826 /* ServiceManagement.framework */,
+				3E56964426292DDF00043826 /* WidgetKit.framework */,
+				3E56964626292DDF00043826 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3E56971D26295C5600043826 /* MenuClockLauncher */ = {
+			isa = PBXGroup;
+			children = (
+				3E56971E26295C5600043826 /* AppDelegate.swift */,
+				3E56972226295C5800043826 /* Assets.xcassets */,
+				3E56972426295C5800043826 /* Main.storyboard */,
+				3E56972726295C5800043826 /* Info.plist */,
+				3E56972826295C5800043826 /* MenuClockLauncher.entitlements */,
+			);
+			path = MenuClockLauncher;
+			sourceTree = "<group>";
+		};
+		3E56973D262961A700043826 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				3E56963A262929C700043826 /* Settings.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
 		F5AEE084207AFE800042695A = {
 			isa = PBXGroup;
 			children = (
+				3E56973D262961A700043826 /* Shared */,
+				3E5696252629252900043826 /* Time */,
 				F5AEE08F207AFE800042695A /* SwiftUTCMenuClock */,
-				F5AEE0A0207AFE820042695A /* SwiftUTCMenuClockTests */,
-				F5AEE0AB207AFE820042695A /* SwiftUTCMenuClockUITests */,
+				3E56971D26295C5600043826 /* MenuClockLauncher */,
 				F5AEE08E207AFE800042695A /* Products */,
+				3E5696292629253300043826 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 			wrapsLines = 1;
@@ -86,8 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				F5AEE08D207AFE800042695A /* SwiftUTCMenuClock.app */,
-				F5AEE09D207AFE820042695A /* SwiftUTCMenuClockTests.xctest */,
-				F5AEE0A8207AFE820042695A /* SwiftUTCMenuClockUITests.xctest */,
+				3E56971C26295C5600043826 /* MenuClockLauncher.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -104,27 +147,26 @@
 			path = SwiftUTCMenuClock;
 			sourceTree = "<group>";
 		};
-		F5AEE0A0207AFE820042695A /* SwiftUTCMenuClockTests */ = {
-			isa = PBXGroup;
-			children = (
-				F5AEE0A1207AFE820042695A /* SwiftUTCMenuClockTests.swift */,
-				F5AEE0A3207AFE820042695A /* Info.plist */,
-			);
-			path = SwiftUTCMenuClockTests;
-			sourceTree = "<group>";
-		};
-		F5AEE0AB207AFE820042695A /* SwiftUTCMenuClockUITests */ = {
-			isa = PBXGroup;
-			children = (
-				F5AEE0AC207AFE820042695A /* SwiftUTCMenuClockUITests.swift */,
-				F5AEE0AE207AFE820042695A /* Info.plist */,
-			);
-			path = SwiftUTCMenuClockUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		3E56971B26295C5600043826 /* MenuClockLauncher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E56972926295C5800043826 /* Build configuration list for PBXNativeTarget "MenuClockLauncher" */;
+			buildPhases = (
+				3E56971826295C5600043826 /* Sources */,
+				3E56971926295C5600043826 /* Frameworks */,
+				3E56971A26295C5600043826 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MenuClockLauncher;
+			productName = MenuClockLauncher;
+			productReference = 3E56971C26295C5600043826 /* MenuClockLauncher.app */;
+			productType = "com.apple.product-type.application";
+		};
 		F5AEE08C207AFE800042695A /* SwiftUTCMenuClock */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F5AEE0B1207AFE820042695A /* Build configuration list for PBXNativeTarget "SwiftUTCMenuClock" */;
@@ -132,51 +174,20 @@
 				F5AEE089207AFE800042695A /* Sources */,
 				F5AEE08A207AFE800042695A /* Frameworks */,
 				F5AEE08B207AFE800042695A /* Resources */,
+				3E56965826292DE200043826 /* Embed App Extensions */,
+				3E56972F26295CAF00043826 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = SwiftUTCMenuClock;
+			packageProductDependencies = (
+				3E56962A2629253300043826 /* Time */,
+			);
 			productName = SwiftUTCMenuClock;
 			productReference = F5AEE08D207AFE800042695A /* SwiftUTCMenuClock.app */;
 			productType = "com.apple.product-type.application";
-		};
-		F5AEE09C207AFE820042695A /* SwiftUTCMenuClockTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F5AEE0B4207AFE820042695A /* Build configuration list for PBXNativeTarget "SwiftUTCMenuClockTests" */;
-			buildPhases = (
-				F5AEE099207AFE820042695A /* Sources */,
-				F5AEE09A207AFE820042695A /* Frameworks */,
-				F5AEE09B207AFE820042695A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F5AEE09F207AFE820042695A /* PBXTargetDependency */,
-			);
-			name = SwiftUTCMenuClockTests;
-			productName = SwiftUTCMenuClockTests;
-			productReference = F5AEE09D207AFE820042695A /* SwiftUTCMenuClockTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		F5AEE0A7207AFE820042695A /* SwiftUTCMenuClockUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F5AEE0B7207AFE820042695A /* Build configuration list for PBXNativeTarget "SwiftUTCMenuClockUITests" */;
-			buildPhases = (
-				F5AEE0A4207AFE820042695A /* Sources */,
-				F5AEE0A5207AFE820042695A /* Frameworks */,
-				F5AEE0A6207AFE820042695A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F5AEE0AA207AFE820042695A /* PBXTargetDependency */,
-			);
-			name = SwiftUTCMenuClockUITests;
-			productName = SwiftUTCMenuClockUITests;
-			productReference = F5AEE0A8207AFE820042695A /* SwiftUTCMenuClockUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -184,23 +195,16 @@
 		F5AEE085207AFE800042695A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
+				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				ORGANIZATIONNAME = jonblatho;
 				TargetAttributes = {
+					3E56971B26295C5600043826 = {
+						CreatedOnToolsVersion = 12.4;
+					};
 					F5AEE08C207AFE800042695A = {
 						CreatedOnToolsVersion = 9.3;
 						LastSwiftMigration = 1240;
-					};
-					F5AEE09C207AFE820042695A = {
-						CreatedOnToolsVersion = 9.3;
-						LastSwiftMigration = 1240;
-						TestTargetID = F5AEE08C207AFE800042695A;
-					};
-					F5AEE0A7207AFE820042695A = {
-						CreatedOnToolsVersion = 9.3;
-						LastSwiftMigration = 1240;
-						TestTargetID = F5AEE08C207AFE800042695A;
 					};
 				};
 			};
@@ -218,13 +222,21 @@
 			projectRoot = "";
 			targets = (
 				F5AEE08C207AFE800042695A /* SwiftUTCMenuClock */,
-				F5AEE09C207AFE820042695A /* SwiftUTCMenuClockTests */,
-				F5AEE0A7207AFE820042695A /* SwiftUTCMenuClockUITests */,
+				3E56971B26295C5600043826 /* MenuClockLauncher */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		3E56971A26295C5600043826 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E56972326295C5800043826 /* Assets.xcassets in Resources */,
+				3E56972626295C5800043826 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F5AEE08B207AFE800042695A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -233,64 +245,39 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F5AEE09B207AFE820042695A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F5AEE0A6207AFE820042695A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		3E56971826295C5600043826 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E56973E262961AC00043826 /* Settings.swift in Sources */,
+				3E56971F26295C5600043826 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F5AEE089207AFE800042695A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E56963B262929C700043826 /* Settings.swift in Sources */,
 				F5AEE0BB207B00820042695A /* StatusMenuController.swift in Sources */,
 				F5AEE091207AFE800042695A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F5AEE099207AFE820042695A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F5AEE0A2207AFE820042695A /* SwiftUTCMenuClockTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F5AEE0A4207AFE820042695A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F5AEE0AD207AFE820042695A /* SwiftUTCMenuClockUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		F5AEE09F207AFE820042695A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F5AEE08C207AFE800042695A /* SwiftUTCMenuClock */;
-			targetProxy = F5AEE09E207AFE820042695A /* PBXContainerItemProxy */;
-		};
-		F5AEE0AA207AFE820042695A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F5AEE08C207AFE800042695A /* SwiftUTCMenuClock */;
-			targetProxy = F5AEE0A9207AFE820042695A /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
+		3E56972426295C5800043826 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E56972526295C5800043826 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 		F5AEE094207AFE820042695A /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -302,6 +289,59 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		3E56972A26295C5800043826 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MenuClockLauncher/MenuClockLauncher.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = 6LDW4Q5KWU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = MenuClockLauncher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonblatho.MenuClockLauncher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3E56972B26295C5800043826 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MenuClockLauncher/MenuClockLauncher.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = 6LDW4Q5KWU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = MenuClockLauncher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonblatho.MenuClockLauncher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		F5AEE0AF207AFE820042695A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -424,7 +464,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 8;
+				CURRENT_PROJECT_VERSION = 16;
 				DEVELOPMENT_TEAM = 6LDW4Q5KWU;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = SwiftUTCMenuClock/Info.plist;
@@ -433,7 +473,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				MARKETING_VERSION = 1.1.1;
+				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jonblatho.SwiftUTCMenuClock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -448,7 +488,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 8;
+				CURRENT_PROJECT_VERSION = 16;
 				DEVELOPMENT_TEAM = 6LDW4Q5KWU;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = SwiftUTCMenuClock/Info.plist;
@@ -457,7 +497,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				MARKETING_VERSION = 1.1.1;
+				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jonblatho.SwiftUTCMenuClock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -465,91 +505,18 @@
 			};
 			name = Release;
 		};
-		F5AEE0B5207AFE820042695A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 6LDW4Q5KWU;
-				INFOPLIST_FILE = SwiftUTCMenuClockTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jonblatho.SwiftUTCMenuClockTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUTCMenuClock.app/Contents/MacOS/SwiftUTCMenuClock";
-			};
-			name = Debug;
-		};
-		F5AEE0B6207AFE820042695A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 6LDW4Q5KWU;
-				INFOPLIST_FILE = SwiftUTCMenuClockTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jonblatho.SwiftUTCMenuClockTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUTCMenuClock.app/Contents/MacOS/SwiftUTCMenuClock";
-			};
-			name = Release;
-		};
-		F5AEE0B8207AFE820042695A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 6LDW4Q5KWU;
-				INFOPLIST_FILE = SwiftUTCMenuClockUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jonblatho.SwiftUTCMenuClockUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = SwiftUTCMenuClock;
-			};
-			name = Debug;
-		};
-		F5AEE0B9207AFE820042695A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 6LDW4Q5KWU;
-				INFOPLIST_FILE = SwiftUTCMenuClockUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jonblatho.SwiftUTCMenuClockUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = SwiftUTCMenuClock;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3E56972926295C5800043826 /* Build configuration list for PBXNativeTarget "MenuClockLauncher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E56972A26295C5800043826 /* Debug */,
+				3E56972B26295C5800043826 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		F5AEE088207AFE800042695A /* Build configuration list for PBXProject "SwiftUTCMenuClock" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -568,25 +535,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F5AEE0B4207AFE820042695A /* Build configuration list for PBXNativeTarget "SwiftUTCMenuClockTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F5AEE0B5207AFE820042695A /* Debug */,
-				F5AEE0B6207AFE820042695A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F5AEE0B7207AFE820042695A /* Build configuration list for PBXNativeTarget "SwiftUTCMenuClockUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F5AEE0B8207AFE820042695A /* Debug */,
-				F5AEE0B9207AFE820042695A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3E56962A2629253300043826 /* Time */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Time;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F5AEE085207AFE800042695A /* Project object */;
 }
