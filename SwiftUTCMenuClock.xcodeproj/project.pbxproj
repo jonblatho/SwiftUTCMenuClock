@@ -80,6 +80,7 @@
 				F5AEE08E207AFE800042695A /* Products */,
 			);
 			sourceTree = "<group>";
+			wrapsLines = 1;
 		};
 		F5AEE08E207AFE800042695A /* Products */ = {
 			isa = PBXGroup;

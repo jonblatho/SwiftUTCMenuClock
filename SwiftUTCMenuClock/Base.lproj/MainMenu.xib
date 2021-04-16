@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14109" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="17701" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14109"/>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="17701"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
@@ -10,7 +11,7 @@
             </connections>
         </customObject>
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
-        <customObject id="-3" userLabel="Application"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
         <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="SwiftUTCMenuClock" customModuleProvider="target"/>
         <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
         <customObject id="S7q-nX-RQz" customClass="StatusMenuController" customModule="SwiftUTCMenuClock" customModuleProvider="target">
@@ -20,10 +21,23 @@
         </customObject>
         <menu id="3ag-Ux-Hwh">
             <items>
-                <menuItem title="Quit" id="CZN-lb-ne0">
+                <menuItem title="Show Date" id="CZN-lb-ne0">
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <connections>
-                        <action selector="quitClicked:" target="S7q-nX-RQz" id="CEd-vZ-THS"/>
+                        <action selector="showDateClicked:" target="S7q-nX-RQz" id="IGu-GD-LG3"/>
+                    </connections>
+                </menuItem>
+                <menuItem title="Show Seconds" id="qIu-eN-Ym7">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="showSecondsClicked:" target="S7q-nX-RQz" id="eWZ-MN-3fa"/>
+                    </connections>
+                </menuItem>
+                <menuItem isSeparatorItem="YES" id="0rj-W5-O7w"/>
+                <menuItem title="Quit" id="oXq-jf-p8U">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="quitClicked:" target="S7q-nX-RQz" id="DYu-m0-bFB"/>
                     </connections>
                 </menuItem>
             </items>
