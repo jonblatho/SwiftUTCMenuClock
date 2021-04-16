@@ -15,6 +15,7 @@ class StatusMenuController: NSObject {
 	@IBOutlet weak var menu: NSMenu!
     
     let calendar = Calendar.current
+    let utc = TimeZone(identifier: "Etc/UTC")!
 	
 	override func awakeFromNib() {
 		// Link the menu from MainMenu.xib to be displayed when someone clicks on the menu bar item.
@@ -49,23 +50,26 @@ class StatusMenuController: NSObject {
 	}
     
     private func updateTimeString() {
-        let utc = TimeZone(identifier: "Etc/UTC")!
         let now = Date(timeIntervalSinceNow: 0)
         let utcComponents = calendar.dateComponents(in: utc, from: now)
-        let year = String(describing: utcComponents.year!)
-        let month = self.formatDateComponentInteger(utcComponents.month!)
-        let day = self.formatDateComponentInteger(utcComponents.day!)
-        let hour = self.formatDateComponentInteger(utcComponents.hour!)
-        let minute = self.formatDateComponentInteger(utcComponents.minute!)
-        let second = self.formatDateComponentInteger(utcComponents.second!)
         var timeString = ""
+        
         if showDateSetting {
+            let year = String(describing: utcComponents.year!)
+            let month = self.formatDateComponentInteger(utcComponents.month!)
+            let day = self.formatDateComponentInteger(utcComponents.day!)
             timeString += "\(year)-\(month)-\(day) "
         }
+        
+        let hour = self.formatDateComponentInteger(utcComponents.hour!)
+        let minute = self.formatDateComponentInteger(utcComponents.minute!)
         timeString += "\(hour):\(minute)"
+        
         if showSecondsSetting {
+            let second = self.formatDateComponentInteger(utcComponents.second!)
             timeString += ":\(second)"
         }
+        
         timeString += " UTC"
         self.statusItem.button?.title = timeString
         self.statusItem.button?.font = NSFont.monospacedDigitSystemFont(ofSize: 14, weight: .regular)
