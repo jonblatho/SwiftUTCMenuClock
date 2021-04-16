@@ -72,7 +72,11 @@ class StatusMenuController: NSObject {
         
         timeString += " UTC"
         self.statusItem.button?.title = timeString
-        self.statusItem.button?.font = NSFont.monospacedDigitSystemFont(ofSize: 14, weight: .regular)
+        var fontSize = CGFloat(14.0)
+        if #available(macOS 11.0, *) {
+            fontSize = CGFloat(13.0)
+        }
+        self.statusItem.button?.font = NSFont.monospacedDigitSystemFont(ofSize: fontSize, weight: .regular)
     }
     
     private func formatDateComponentInteger(_ component: Int) -> String {
