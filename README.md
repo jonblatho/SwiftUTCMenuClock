@@ -10,12 +10,4 @@ Installing SwiftUTCMenuClock is super-easy *unless* you want it to run itself at
 2. Drag **SwiftUTCMenuClock.app** from wherever it downloaded to to your Applications folder.
 3. Open it!
 
-### Adding a Login Item
-If you want this to open itself at login, here's how:
-
-1. Open System Preferences.
-2. Go to **Users & Groups** and select yourself.
-3. Go to the **Login Items** tab.
-4. Click **+** below the list.
-5. Find and select **SwiftUTCMenuClock.app** in Finder. (If you followed the installation steps above, it should be in your /Applications folder.)
-6. You made it! SwiftUTCMenuClock should now run at login.
+By default, SwiftUTCMenuClock will open itself. (You can disable it by clicking on the menu clock and selecting the relevant option.)
