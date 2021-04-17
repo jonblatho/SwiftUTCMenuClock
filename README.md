@@ -11,4 +11,4 @@ Installing SwiftUTCMenuClock is easy:
 3. Drag **SwiftUTCMenuClock.app** from wherever it downloaded to to your Applications folder.
 4. Open it!
 
-By default, SwiftUTCMenuClock will open itself. (You can disable it by clicking on the menu clock and selecting the relevant option.)
+By default, SwiftUTCMenuClock will open itself at login going forward. (You can disable that by clicking on the menu clock and selecting the relevant option.)
