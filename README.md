@@ -1,7 +1,7 @@
 # SwiftUTCMenuClock
 A simple menu bar app for macOS that shows the current time in UTC. Loosely inspired by [UTCMenuClock](https://github.com/netik/UTCMenuClock) but rewritten from scratch in Swift.
 
-Requires macOS Catalina or Big Sur.
+Requires macOS Catalina or later.
 
 ## Installation
 Installing SwiftUTCMenuClock is easy:
